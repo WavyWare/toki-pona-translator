@@ -1,311 +1,349 @@
-# 🌍 Toki Pona Translator | Tłumacz Toki Pona
+# 🌍 Toki Pona Translator / Tłumacz Toki Pona
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+![Toki Pona](https://img.shields.io/badge/Language-Toki%20Pona-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-A modern, responsive web-based translator for **Toki Pona** - the minimalist constructed language. Translate Toki Pona to English, Polish, Spanish, German, French, and more!
+A modern, responsive web application for translating Toki Pona - the world's smallest language - into multiple languages including English, Polish, Spanish, German, French, and Italian.
 
-Nowoczesny, responsywny translator internetowy dla **Toki Pona** - minimalistycznego języka sztucznego. Tłumacz Toki Pona na polski, angielski, hiszpański, niemiecki, francuski i inne!
-
-![Toki Pona Translator Screenshot](https://via.placeholder.com/800x400.png?text=Toki+Pona+Translator)
-
----
-
-## 🌟 Features | Funkcje
-
-### English
-
-✨ **Core Features:**
-- 🔄 **Multi-language support**: Translate to English, Polish, Spanish, German, and French
-- 📚 **Comprehensive dictionary**: 120+ core Toki Pona words (nimi pu)
-- 🎯 **Common phrases**: Pre-loaded translations for frequently used expressions
-- 📖 **Word-by-word analysis**: See individual word translations
-- 📱 **Fully responsive**: Works perfectly on desktop, tablet, and mobile devices
-- 🎨 **Modern UI**: Clean, colorful interface with smooth animations
-- ⚡ **Real-time translation**: Instant results as you type
-- 🌐 **No installation required**: Works directly in your browser
-- 🔓 **100% Free & Open Source**: MIT licensed
-
-### Polski
-
-✨ **Główne funkcje:**
-- 🔄 **Wsparcie wielu języków**: Tłumaczenie na polski, angielski, hiszpański, niemiecki i francuski
-- 📚 **Kompletny słownik**: Ponad 120 podstawowych słów Toki Pona (nimi pu)
-- 🎯 **Popularne zwroty**: Wstępnie załadowane tłumaczenia często używanych wyrażeń
-- 📖 **Analiza słowo po słowie**: Zobacz tłumaczenia poszczególnych słów
-- 📱 **W pełni responsywny**: Działa idealnie na komputerach, tabletach i urządzeniach mobilnych
-- 🎨 **Nowoczesny interfejs**: Czysty, kolorowy wygląd z płynnymi animacjami
-- ⚡ **Tłumaczenie w czasie rzeczywistym**: Natychmiastowe wyniki
-- 🌐 **Bez instalacji**: Działa bezpośrednio w przeglądarce
-- 🔓 **100% darmowe i Open Source**: Licencja MIT
+**Nowoczesna, responsywna aplikacja webowa do tłumaczenia Toki Pona - najmniejszego języka świata - na wiele języków, w tym angielski, polski, hiszpański, niemiecki, francuski i włoski.**
 
 ---
 
-## 🚀 Quick Start | Szybki start
+## 🎯 Features / Funkcje
 
-### English
+### English:
+- ✨ **Clean, modern UI** with responsive design
+- 🌐 **Multi-language support**: English, Polish, Spanish, German, French, Italian
+- 📚 **Comprehensive dictionary** with 100+ Toki Pona words
+- 🔤 **Word-by-word breakdown** with grammatical information
+- ⚡ **Real-time translation** as you type
+- 📱 **Mobile-friendly** interface
+- 🎨 **Beautiful gradient design** with smooth animations
+- 📖 **Quick reference guide** with common words and grammar rules
+- 🔍 **Word type classification** (noun, verb, adjective, etc.)
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/WavyWare/toki-pona-translator.git
-   cd toki-pona-translator
-   ```
-
-2. **Open in browser:**
-   - Simply open `index.html` in your web browser
-   - No build process or dependencies required!
-
-3. **Or use it online:**
-   - Visit the [live demo](https://wavyware.github.io/toki-pona-translator) (if deployed)
-
-### Polski
-
-1. **Sklonuj repozytorium:**
-   ```bash
-   git clone https://github.com/WavyWare/toki-pona-translator.git
-   cd toki-pona-translator
-   ```
-
-2. **Otwórz w przeglądarce:**
-   - Po prostu otwórz plik `index.html` w przeglądarce internetowej
-   - Nie jest wymagany proces budowania ani żadne zależności!
-
-3. **Lub użyj online:**
-   - Odwiedź [demo na żywo](https://wavyware.github.io/toki-pona-translator) (jeśli wdrożone)
+### Polski:
+- ✨ **Czysty, nowoczesny interfejs** z responsywnym designem
+- 🌐 **Wsparcie wielu języków**: angielski, polski, hiszpański, niemiecki, francuski, włoski
+- 📚 **Obszerny słownik** z ponad 100 słowami Toki Pona
+- 🔤 **Rozpisanie słowo po słowie** z informacjami gramatycznymi
+- ⚡ **Tłumaczenie w czasie rzeczywistym**
+- 📱 **Przyjazny interfejs mobilny**
+- 🎨 **Piękny design z gradientami** i płynnymi animacjami
+- 📖 **Szybki przewodnik** z popularnymi słówkami i zasadami gramatyki
+- 🔍 **Klasyfikacja typów słów** (rzeczownik, czasownik, przymiotnik, etc.)
 
 ---
 
-## 📖 How to Use | Jak używać
+## 🚀 Demo
 
-### English
-
-1. **Enter Toki Pona text** in the input field
-2. **Select target language** from the dropdown menu
-3. **Click "Translate"** button (or press Ctrl+Enter)
-4. **View translation** and word-by-word breakdown
-
-**Example phrases to try:**
-- `toki!` → Hello!
-- `mi pona` → I'm good/fine
-- `sina seme?` → What are you? / How are you?
-- `mi moku e kili` → I eat fruit/vegetable
-- `toki pona li pona` → Toki Pona is good
-
-### Polski
-
-1. **Wprowadź tekst w Toki Pona** w pole tekstowe
-2. **Wybierz język docelowy** z menu rozwijanego
-3. **Kliknij przycisk "Translate"** (lub naciśnij Ctrl+Enter)
-4. **Zobacz tłumaczenie** i rozbicie na poszczególne słowa
-
-**Przykładowe zwroty do wypróbowania:**
-- `toki!` → Cześć!
-- `mi pona` → Mam się dobrze
-- `sina seme?` → Co u ciebie? / Jak się masz?
-- `mi moku e kili` → Jem owoc/warzywo
-- `toki pona li pona` → Toki Pona jest dobre
+Visit the live demo: [GitHub Pages](https://wavyware.github.io/toki-pona-translator/)
 
 ---
 
-## 🗣️ About Toki Pona | O języku Toki Pona
+## 📖 What is Toki Pona? / Czym jest Toki Pona?
 
-### English
+### English:
+**Toki Pona** is a philosophical artistic constructed language (conlang) created by Canadian linguist and translator **Sonja Lang**. First published online in 2001, it is designed to express maximal meaning with minimal complexity.
 
-**Toki Pona** (meaning "good language" or "simple language") is a philosophical artistic constructed language created by Canadian linguist **Sonja Lang** in 2001.
+#### Key Facts:
+- **Vocabulary**: Only 120-137 official words
+- **Purpose**: Simplify thoughts, focus on essential concepts
+- **Philosophy**: Minimalism, positive thinking, living in the moment
+- **Name meaning**: "toki" = language/speech, "pona" = good/simple → "good language" or "simple language"
+- **Grammar**: Simple subject-verb-object structure with few particles
 
-**Key characteristics:**
-- 📝 **~120-137 core words** (depending on version)
-- 🎯 **Simple grammar** with consistent rules
-- 🧘 **Philosophical approach** - expressing complex ideas with simple concepts
-- 🌱 **Minimalist design** - forces you to think about the essence of things
-- 🌍 **Global community** of speakers and learners
+#### Why Learn Toki Pona?
+- 🧠 **Mental exercise**: Forces you to think simply and clearly
+- 🎯 **Quick to learn**: Master the entire language in days or weeks
+- 🌍 **Growing community**: Join speakers worldwide
+- 🎨 **Creative expression**: Describe complex ideas with simple words
+- 🧘 **Mindfulness**: Encourages present-moment awareness
 
-**Philosophy:**
-Toki Pona encourages mindfulness and simplicity. By using a limited vocabulary, speakers must think creatively about how to express complex ideas using basic concepts. This promotes clarity of thought and communication.
+### Polski:
+**Toki Pona** to filozoficzny sztuczny język konstrukcyjny (conlang) stworzony przez kanadyjską lingwistkę i tłumaczkę **Sonja Lang**. Po raz pierwszy opublikowany online w 2001 roku, został zaprojektowany, aby wyrażać maksymalne znaczenie przy minimalnej złożoności.
 
-**Example of simplicity:**
-- Computer = "ilo sona" (thinking tool)
-- Airplane = "tomo tawa kon" (moving structure of air)
-- Internet = "lipu ilo" (tool document/page)
+#### Kluczowe Fakty:
+- **Słownictwo**: Tylko 120-137 oficjalnych słów
+- **Cel**: Uproszczenie myśli, skupienie się na istotnych konceptach
+- **Filozofia**: Minimalizm, pozytywne myślenie, życie chwilą
+- **Znaczenie nazwy**: "toki" = język/mowa, "pona" = dobry/prosty → "dobry język" lub "prosty język"
+- **Gramatyka**: Prosta struktura podmiot-orzeczenie-dopełnienie z kilkoma partykułami
 
-### Polski
-
-**Toki Pona** (oznaczające "dobry język" lub "prosty język") to filozoficzny artystyczny język sztuczny stworzony przez kanadyjską lingwistkę **Sonję Lang** w 2001 roku.
-
-**Kluczowe cechy:**
-- 📝 **~120-137 podstawowych słów** (w zależności od wersji)
-- 🎯 **Prosta gramatyka** z konsekwentnymi zasadami
-- 🧘 **Podejście filozoficzne** - wyrażanie złożonych idei prostymi koncepcjami
-- 🌱 **Minimalistyczny design** - zmusza do myślenia o istocie rzeczy
-- 🌍 **Globalna społeczność** użytkowników i uczących się
-
-**Filozofia:**
-Toki Pona zachęca do uważności i prostoty. Używając ograniczonego słownictwa, mówiący muszą myśleć kreatywnie o tym, jak wyrażać złożone idee za pomocą podstawowych pojęć. Promuje to jasność myślenia i komunikacji.
-
-**Przykład prostoty:**
-- Komputer = "ilo sona" (narzędzie myślenia)
-- Samolot = "tomo tawa kon" (poruszająca się struktura powietrza)
-- Internet = "lipu ilo" (dokument/strona narzędzia)
+#### Dlaczego Uczyć Się Toki Pona?
+- 🧠 **Ćwiczenie umysłu**: Zmusza do prostego i jasnego myślenia
+- 🎯 **Szybko się uczy**: Opanuj cały język w dni lub tygodnie
+- 🌍 **Rosnąca społeczność**: Dołącz do użytkowników na całym świecie
+- 🎨 **Kreatywna ekspresja**: Opisuj złożone idee prostymi słowami
+- 🧘 **Uważność**: Zachęca do świadomości chwili obecnej
 
 ---
 
-## 🛠️ Technical Details | Szczegóły techniczne
+## 🛠️ Installation & Usage / Instalacja i Użytkowanie
 
-### Built With | Zbudowane przy użyciu
+### English:
 
-- **HTML5** - Structure and semantic markup
-- **CSS3** - Styling with modern features (Grid, Flexbox, animations)
-- **JavaScript (ES6+)** - Translation logic and interactivity
-- **Bootstrap 5.3** - Responsive framework and components
-- **Bootstrap Icons** - Beautiful icon set
+#### Option 1: Direct Use (Recommended)
+1. Simply open `index.html` in any modern web browser
+2. No installation or server required!
 
-### File Structure | Struktura plików
+#### Option 2: Local Development Server
+```bash
+# Clone the repository
+git clone https://github.com/WavyWare/toki-pona-translator.git
 
+# Navigate to the directory
+cd toki-pona-translator
+
+# Serve using Python (Python 3)
+python -m http.server 8000
+
+# Or using Node.js
+npx http-server
+
+# Open browser to http://localhost:8000
+```
+
+#### Usage:
+1. Enter Toki Pona text in the input field
+2. Select your target language from the dropdown
+3. Click "Translate" or press Enter
+4. Toggle "Show word-by-word breakdown" for detailed analysis
+5. Use the Quick Reference section to learn common words and grammar rules
+
+### Polski:
+
+#### Opcja 1: Bezpośrednie Użycie (Zalecane)
+1. Po prostu otwórz `index.html` w dowolnej nowoczesnej przeglądarce
+2. Nie wymaga instalacji ani serwera!
+
+#### Opcja 2: Lokalny Serwer Deweloperski
+```bash
+# Sklonuj repozytorium
+git clone https://github.com/WavyWare/toki-pona-translator.git
+
+# Przejdź do katalogu
+cd toki-pona-translator
+
+# Uruchom serwer używając Pythona (Python 3)
+python -m http.server 8000
+
+# Lub używając Node.js
+npx http-server
+
+# Otwórz przeglądarkę na http://localhost:8000
+```
+
+#### Użytkowanie:
+1. Wpisz tekst w Toki Pona w pole wprowadzania
+2. Wybierz język docelowy z listy rozwijanej
+3. Kliknij "Translate" lub naciśnij Enter
+4. Włącz "Show word-by-word breakdown" dla szczegółowej analizy
+5. Użyj sekcji Quick Reference aby nauczyć się popularnych słów i zasad gramatyki
+
+---
+
+## 📚 Examples / Przykłady
+
+| Toki Pona | English | Polski |
+|-----------|---------|--------|
+| mi tawa tomo | I go home | Idę do domu |
+| jan li moku e kili | The person eats fruit | Osoba je owoc |
+| sina pona | You are good | Jesteś dobry |
+| telo li suli | The water is big | Woda jest duża |
+| mi wile moku | I want to eat | Chcę jeść |
+| ona li lape | They sleep | Oni śpią |
+| suno li suli | The sun is big | Słońce jest duże |
+
+---
+
+## 🔧 Technical Details / Szczegóły Techniczne
+
+### Technologies Used / Użyte Technologie:
+- **HTML5**: Semantic markup
+- **CSS3**: Modern styling with gradients, flexbox, and animations
+- **JavaScript (ES6+)**: Core translation logic
+- **Bootstrap 5.3**: Responsive grid and components
+- **Font Awesome 6.4**: Beautiful icons
+
+### Project Structure / Struktura Projektu:
 ```
 toki-pona-translator/
 │
-├── index.html          # Main HTML file
-├── style.css           # Custom styles and animations
-├── script.js           # Translation logic and dictionary
-└── README.md           # Documentation (this file)
+├── index.html          # Main HTML file / Główny plik HTML
+├── style.css           # Custom styles / Własne style
+├── script.js           # Translation logic / Logika tłumaczenia
+└── README.md          # Documentation / Dokumentacja
 ```
 
-### Browser Compatibility | Kompatybilność z przeglądarkami
-
-✅ Chrome 90+
-✅ Firefox 88+
-✅ Safari 14+
-✅ Edge 90+
-✅ Opera 76+
+### Dictionary Coverage / Zasięg Słownika:
+- **100+ Toki Pona words** with translations in 6 languages
+- All core vocabulary from the official Toki Pona book
+- Common phrases and expressions
+- Grammatical particles (li, e, pi, la, etc.)
 
 ---
 
-## 🤝 Contributing | Współpraca
+## 🎓 Learning Resources / Zasoby do Nauki
 
-### English
+### English:
+- 📘 [Official Toki Pona Book](https://tokipona.org/) by Sonja Lang
+- 🌐 [Toki Pona Community](https://www.reddit.com/r/tokipona/)
+- 📺 [jan Misali's Toki Pona lessons](https://www.youtube.com/watch?v=4L-dvvng4Zc)
+- 💬 [Toki Pona Discord Server](https://discord.gg/tokipona)
 
+### Polski:
+- 📘 [Książka Toki Pona](https://tokipona.org/) autorstwa Sonji Lang
+- 🌐 [Społeczność Toki Pona](https://www.reddit.com/r/tokipona/)
+- 💬 Polski kanał na Discord
+
+---
+
+## 🤝 Contributing / Współtworzenie
+
+### English:
 Contributions are welcome! Here's how you can help:
 
-1. **Fork the repository**
-2. **Create your feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
+1. **Add more words** to the dictionary
+2. **Improve grammar rules** for better translations
+3. **Add new target languages**
+4. **Fix bugs** or improve UI/UX
+5. **Translate the README** to more languages
 
-**Ideas for contributions:**
-- Add more languages
-- Improve translation algorithms
-- Add voice input/output
-- Create a mobile app version
-- Improve grammar rule detection
-- Add more common phrases
-- Create unit tests
+#### How to Contribute:
+```bash
+# Fork the repository
+# Create a new branch
+git checkout -b feature/your-feature-name
 
-### Polski
+# Make your changes
+# Commit your changes
+git commit -m "Add: your feature description"
 
+# Push to your fork
+git push origin feature/your-feature-name
+
+# Create a Pull Request
+```
+
+### Polski:
 Wkład jest mile widziany! Oto jak możesz pomóc:
 
-1. **Zrób fork repozytorium**
-2. **Utwórz gałąź funkcji** (`git checkout -b feature/NowaCecha`)
-3. **Zatwierdź zmiany** (`git commit -m 'Dodaj nową cechę'`)
-4. **Wypchnij do gałęzi** (`git push origin feature/NowaCecha`)
-5. **Otwórz Pull Request**
+1. **Dodaj więcej słów** do słownika
+2. **Popraw zasady gramatyki** dla lepszych tłumaczeń
+3. **Dodaj nowe języki docelowe**
+4. **Napraw błędy** lub popraw UI/UX
+5. **Przetłumacz README** na więcej języków
 
-**Pomysły na wkład:**
-- Dodaj więcej języków
-- Ulepsz algorytmy tłumaczenia
-- Dodaj wejście/wyjście głosowe
-- Stwórz wersję aplikacji mobilnej
-- Ulepsz wykrywanie zasad gramatycznych
-- Dodaj więcej popularnych zwrotów
-- Stwórz testy jednostkowe
+#### Jak Współtworzyć:
+```bash
+# Zrób fork repozytorium
+# Stwórz nową gałąź
+git checkout -b feature/nazwa-twojej-funkcji
 
----
+# Wprowadź zmiany
+# Zatwierdź zmiany
+git commit -m "Dodaj: opis twojej funkcji"
 
-## 📚 Resources | Zasoby
+# Wyślij do swojego forka
+git push origin feature/nazwa-twojej-funkcji
 
-### Learning Toki Pona | Nauka Toki Pona
-
-- 📖 [Official Toki Pona Book](https://tokipona.org/) - "Toki Pona: The Language of Good" by Sonja Lang
-- 🌐 [Toki Pona Community](https://www.reddit.com/r/tokipona/) - Reddit community
-- 📝 [Toki Pona Lessons](https://devurandom.xyz/tokipona/) - Free online course
-- 💬 [Toki Pona Discord](https://discord.gg/tokipona) - Active community chat
-
-### Reference | Materiały referencyjne
-
-- [Toki Pona Dictionary](https://en.wiktionary.org/wiki/Appendix:Toki_Pona)
-- [Grammar Guide](https://github.com/janSame/toki-pona-guide)
-- [Sitelen Pona](https://en.wikipedia.org/wiki/Toki_Pona#Writing_system) - Writing system
-
----
-
-## 📄 License | Licencja
-
-This project is licensed under the **MIT License** - see below for details.
-
-Ten projekt jest licencjonowany na podstawie **licencji MIT** - szczegóły poniżej.
-
-```
-MIT License
-
-Copyright (c) 2026 WavyWare
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+# Stwórz Pull Request
 ```
 
 ---
 
-## 👏 Acknowledgments | Podziękowania
+## 📝 Grammar Rules Implemented / Zaimplementowane Zasady Gramatyki
 
-### English
+### English:
+1. **li particle**: Separates subject from predicate (not used after mi/sina alone)
+2. **e particle**: Marks the direct object
+3. **pi particle**: Regroups modifiers
+4. **la particle**: Marks context or condition
+5. **Modifier order**: Modifiers come after the word they modify
+6. **Subject-Verb-Object**: Basic sentence structure
 
+### Polski:
+1. **Partykuła li**: Oddziela podmiot od orzeczenia (nie używana po samym mi/sina)
+2. **Partykuła e**: Oznacza dopełnienie bliższe
+3. **Partykuła pi**: Grupuje modyfikatory
+4. **Partykuła la**: Oznacza kontekst lub warunek
+5. **Kolejność modyfikatorów**: Modyfikatory występują po słowie, które modyfikują
+6. **Podmiot-Orzeczenie-Dopełnienie**: Podstawowa struktura zdania
+
+---
+
+## 🐛 Known Limitations / Znane Ograniczenia
+
+### English:
+- Complex sentence structures may not translate perfectly
+- Context-dependent translations are simplified
+- Some idiomatic expressions might be literal
+- Grammar rules are basic - complex constructions may need manual refinement
+
+### Polski:
+- Złożone struktury zdaniowe mogą nie tłumaczyć się perfekcyjnie
+- Tłumaczenia zależne od kontekstu są uproszczone
+- Niektóre idiomy mogą być tłumaczone dosłownie
+- Zasady gramatyki są podstawowe - złożone konstrukcje mogą wymagać ręcznej poprawki
+
+---
+
+## 📜 License / Licencja
+
+MIT License - feel free to use, modify, and distribute!
+
+MIT License - możesz swobodnie używać, modyfikować i dystrybuować!
+
+---
+
+## 👨‍💻 Author / Autor
+
+**JFTech**
+
+- GitHub: [@WavyWare](https://github.com/WavyWare)
+- Project: [toki-pona-translator](https://github.com/WavyWare/toki-pona-translator)
+
+---
+
+## 🙏 Acknowledgments / Podziękowania
+
+### English:
 - **Sonja Lang** - Creator of Toki Pona
-- **Toki Pona Community** - For keeping the language alive and growing
-- **Bootstrap Team** - For the excellent framework
-- **All contributors** - Thank you for your support!
+- **Toki Pona community** - For keeping the language alive
+- **Bootstrap & Font Awesome** - For excellent UI components
 
-### Polski
-
+### Polski:
 - **Sonja Lang** - Twórczyni Toki Pona
-- **Społeczność Toki Pona** - Za utrzymywanie języka przy życiu i jego rozwój
-- **Zespół Bootstrap** - Za doskonały framework
-- **Wszyscy współtwórcy** - Dziękujemy za wsparcie!
+- **Społeczność Toki Pona** - Za utrzymanie języka przy życiu
+- **Bootstrap & Font Awesome** - Za doskonałe komponenty UI
 
 ---
 
-## 💬 Contact | Kontakt
+## ⭐ Support / Wsparcie
 
-**Project Link:** [https://github.com/WavyWare/toki-pona-translator](https://github.com/WavyWare/toki-pona-translator)
+If you find this project useful, please consider:
+- ⭐ **Starring the repository**
+- 🐛 **Reporting bugs**
+- 💡 **Suggesting features**
+- 🤝 **Contributing code**
+
+Jeśli ten projekt jest dla Ciebie przydatny, rozważ:
+- ⭐ **Oznaczenie repozytorium gwiazdką**
+- 🐛 **Zgłaszanie błędów**
+- 💡 **Sugerowanie funkcji**
+- 🤝 **Współtworzenie kodu**
 
 ---
 
 <div align="center">
 
-### toki pona li pona tawa mi! 💚
+**pona tawa sina! / Good to you! / Wszystkiego dobrego!**
 
-*Toki Pona is good for me!* | *Toki Pona jest dla mnie dobre!*
-
-Made with ❤️ by the Toki Pona community
-
-[⬆ Back to top](#-toki-pona-translator--tłumacz-toki-pona)
+*Made with ❤️ and Toki Pona*
 
 </div>
