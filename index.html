@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toki Pona Translator | toki pona → English, Polish & More</title>
+    <meta name="description" content="Free online translator for Toki Pona - the minimalist constructed language. Translate to English, Polish, and other languages.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Header -->
+        <header class="header-section text-center py-4">
+            <h1 class="display-4 fw-bold mb-2">
+                <i class="bi bi-translate"></i> Toki Pona Translator
+            </h1>
+            <p class="lead text-muted">toki pona li toki pona! · Simple language, powerful ideas</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10 col-xl-8">
+                    <!-- Translator Card -->
+                    <div class="card shadow-lg border-0 translator-card">
+                        <div class="card-body p-4">
+                            <!-- Language Selection -->
+                            <div class="row mb-4">
+                                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                                    <label for="sourceLang" class="form-label fw-semibold">
+                                        <i class="bi bi-flag"></i> Source Language
+                                    </label>
+                                    <select class="form-select form-select-lg" id="sourceLang">
+                                        <option value="tokipona" selected>Toki Pona</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <label for="targetLang" class="form-label fw-semibold">
+                                        <i class="bi bi-flag-fill"></i> Target Language
+                                    </label>
+                                    <select class="form-select form-select-lg" id="targetLang">
+                                        <option value="en" selected>English</option>
+                                        <option value="pl">Polski (Polish)</option>
+                                        <option value="es">Español (Spanish)</option>
+                                        <option value="de">Deutsch (German)</option>
+                                        <option value="fr">Français (French)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Input Area -->
+                            <div class="mb-4">
+                                <label for="inputText" class="form-label fw-semibold">
+                                    <i class="bi bi-pencil-square"></i> Toki Pona Text
+                                </label>
+                                <textarea 
+                                    class="form-control form-control-lg" 
+                                    id="inputText" 
+                                    rows="6" 
+                                    placeholder="Enter your toki pona text here... (e.g., mi moku e kili)">
+                                </textarea>
+                                <small class="text-muted">
+                                    <i class="bi bi-info-circle"></i> 
+                                    Example phrases: "toki!" (hello!), "mi pona" (I'm good), "sina seme?" (what are you?)
+                                </small>
+                            </div>
+
+                            <!-- Translate Button -->
+                            <div class="d-grid mb-4">
+                                <button class="btn btn-primary btn-lg" id="translateBtn" onclick="translateText()">
+                                    <i class="bi bi-arrow-down-up"></i> Translate
+                                </button>
+                            </div>
+
+                            <!-- Output Area -->
+                            <div class="output-section">
+                                <label class="form-label fw-semibold">
+                                    <i class="bi bi-chat-square-text"></i> Translation
+                                </label>
+                                <div class="output-box p-4" id="outputText">
+                                    <p class="text-muted text-center mb-0">
+                                        <i class="bi bi-arrow-up"></i><br>
+                                        Your translation will appear here
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Word Analysis -->
+                            <div class="word-analysis mt-4" id="wordAnalysis" style="display: none;">
+                                <h5 class="fw-semibold mb-3">
+                                    <i class="bi bi-book"></i> Word Analysis
+                                </h5>
+                                <div id="wordBreakdown" class="word-breakdown"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Info Section -->
+                    <div class="card shadow-sm border-0 mt-4 info-card">
+                        <div class="card-body p-4">
+                            <h3 class="h5 fw-bold mb-3">
+                                <i class="bi bi-lightbulb"></i> About Toki Pona
+                            </h3>
+                            <p>
+                                <strong>Toki Pona</strong> is a philosophical artistic constructed language created by Sonja Lang in 2001. 
+                                It's designed to express maximum meaning with minimal complexity, using only around 120-137 core words.
+                            </p>
+                            <div class="row mt-3">
+                                <div class="col-md-4 mb-2">
+                                    <span class="badge bg-info">~120 words</span>
+                                </div>
+                                <div class="col-md-4 mb-2">
+                                    <span class="badge bg-success">Simple grammar</span>
+                                </div>
+                                <div class="col-md-4 mb-2">
+                                    <span class="badge bg-warning text-dark">Minimalist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-4 mt-5">
+            <p class="text-muted mb-1">
+                <i class="bi bi-github"></i> 
+                Open Source Project · Made with <i class="bi bi-heart-fill text-danger"></i> for the Toki Pona community
+            </p>
+            <p class="text-muted small">
+                toki pona li pona tawa mi · Toki Pona is good for me
+            </p>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
